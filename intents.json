@@ -1,0 +1,40 @@
+{
+   "intents": [
+        {
+            "tag": "greeting",
+            "patterns": ["Hi there"], 
+            "responses": ["Hello, Sharmila is a big duffer"],
+            "context": [""]
+         },
+        {
+            "tag": "goodbye",
+            "patterns": ["Bye"],
+            "responses": ["See you!"],
+            "context": [""]
+        },
+        {
+            "tag": "thanks",
+            "patterns": ["Thank you"],
+            "responses": ["Happy to help!"],
+            "context": [""]
+         },
+        {
+            "tag": "noanswer",
+            "patterns": [""],
+            "responses": ["Sorry, can't understand you"],
+            "context": [""]
+         },
+        {
+            "tag": "options",
+            "patterns": ["How you could help me?"], 
+            "responses": ["I can guide you through a list of operations"],
+            "context": [""]
+        },
+        {
+            "tag": "operations",
+            "patterns": ["How to check details ?"],
+            "responses": ["Navigating to module"],
+            "context":[]
+        }
+            ]
+}
